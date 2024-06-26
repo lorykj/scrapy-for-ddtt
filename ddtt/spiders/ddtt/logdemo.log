@@ -1,0 +1,1469 @@
+2024-06-13 23:32:59 [scrapy.utils.log] INFO: Scrapy 2.9.0 started (bot: ddtt)
+2024-06-13 23:32:59 [scrapy.utils.log] INFO: Versions: lxml 4.9.3.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.10.0, Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 23.2.0 (OpenSSL 3.1.3 19 Sep 2023), cryptography 41.0.4, Platform Windows-10-10.0.22621-SP0
+2024-06-13 23:32:59 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'ddtt',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'logdemo.log',
+ 'NEWSPIDER_MODULE': 'ddtt.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['ddtt.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-06-13 23:32:59 [asyncio] DEBUG: Using selector: SelectSelector
+2024-06-13 23:32:59 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-06-13 23:32:59 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-06-13 23:32:59 [scrapy.extensions.telnet] INFO: Telnet Password: a41198d80a2ffc99
+2024-06-13 23:32:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-06-13 23:33:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-06-13 23:33:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-06-13 23:33:00 [scrapy.middleware] INFO: Enabled item pipelines:
+['ddtt.pipelines.DdttPipeline']
+2024-06-13 23:33:00 [scrapy.core.engine] INFO: Spider opened
+2024-06-13 23:33:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-06-13 23:33:00 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-06-13 23:33:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html> (referer: None)
+2024-06-13 23:33:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240519/65000.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240519/65000.html>
+{'actor': '伯努瓦·马吉梅尔',
+ 'area': '法国/西班牙/德国/葡萄牙',
+ 'date': '2022-05-25',
+ 'director': '阿尔伯特·塞拉',
+ 'genre': '剧情/惊悚',
+ 'language': '法语/英语/波利尼西亚语/葡萄牙语',
+ 'name': '岛屿上的煎熬',
+ 'runtime': 165,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2882020043.jpg',
+ 'vote': 6.7,
+ 'vote_cnt': 2663,
+ 'year': '2022'}
+2024-06-13 23:33:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240503/64951.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240503/64951.html>
+{'actor': '神木隆之介',
+ 'area': '日本',
+ 'date': '2023-11-01',
+ 'director': '山崎贵',
+ 'genre': '剧情/科幻/灾难',
+ 'language': '日语',
+ 'name': '哥斯拉-1.0',
+ 'runtime': 125,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900227040.jpg',
+ 'vote': 6.8,
+ 'vote_cnt': 10990,
+ 'year': '2023'}
+2024-06-13 23:33:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240505/64955.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240505/64955.html>
+{'actor': '安妮·海瑟薇',
+ 'area': '美国',
+ 'date': '2024-03-16',
+ 'director': '迈克尔·肖沃特',
+ 'genre': '剧情/爱情',
+ 'language': '英语',
+ 'name': '对你的想象',
+ 'runtime': 115,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905327559.jpg',
+ 'vote': 6.0,
+ 'vote_cnt': 9799,
+ 'year': '2024'}
+2024-06-13 23:33:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240505/64956.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240525/65019.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240526/65025.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240505/64956.html>
+{'actor': '宋木子',
+ 'area': '中国大陆',
+ 'date': '2023-07-24',
+ 'director': '李阔',
+ 'genre': '剧情/喜剧',
+ 'language': '普通话',
+ 'name': '银河写手',
+ 'runtime': 103,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905680871.jpg',
+ 'vote': 6.7,
+ 'vote_cnt': 25665,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240525/65019.html>
+{'actor': '贾冰',
+ 'area': '中国大陆',
+ 'date': '2023-09-08',
+ 'director': '郝鸿远',
+ 'genre': '喜剧/运动',
+ 'language': '普通话',
+ 'name': '踢球吧少年',
+ 'runtime': 91,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2897496282.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240526/65025.html>
+{'actor': '黄渤',
+ 'area': '中国大陆',
+ 'date': '2023-06-17',
+ 'director': '大鹏',
+ 'genre': '剧情/喜剧',
+ 'language': '普通话',
+ 'name': '热烈',
+ 'runtime': 124,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2895553074.jpg',
+ 'vote': 7.1,
+ 'vote_cnt': 266843,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240521/65004.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240526/65024.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240505/64957.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240525/65021.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240523/65012.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240507/64960.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240506/64959.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240521/65004.html>
+{'actor': '赞达亚',
+ 'area': '美国',
+ 'date': '2024-04-17',
+ 'director': '卢卡·瓜达尼诺',
+ 'genre': '剧情/爱情/运动',
+ 'language': '英语',
+ 'name': '挑战者',
+ 'runtime': 131,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902765793.jpg',
+ 'vote': 6.6,
+ 'vote_cnt': 4972,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240526/65024.html>
+{'actor': '克斯汀·邓斯特',
+ 'area': '英国/美国',
+ 'date': '2024-03-14',
+ 'director': '亚历克斯·加兰',
+ 'genre': '剧情/动作',
+ 'language': '英语',
+ 'name': '美国内战',
+ 'runtime': 109,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2908241970.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240505/64957.html>
+{'actor': '番家一路',
+ 'area': '日本',
+ 'date': '2022-08-19',
+ 'director': '金泽知树',
+ 'genre': '剧情',
+ 'language': '日语',
+ 'name': '鲭鱼罐头',
+ 'runtime': 96,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2892890451.jpg',
+ 'vote': 8.5,
+ 'vote_cnt': 24202,
+ 'year': '2022'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240525/65021.html>
+{'actor': '詹妮弗·洛佩兹',
+ 'area': '美国',
+ 'date': '2024-05-24',
+ 'director': '布拉德·佩顿',
+ 'genre': '动作/科幻/惊悚/冒险',
+ 'language': '英语',
+ 'name': '异星战境',
+ 'runtime': 118,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2907279975.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240523/65012.html>
+{'actor': '马克·沃尔伯格',
+ 'area': '美国',
+ 'date': '2024-03-15',
+ 'director': '西蒙·赛伦·琼斯',
+ 'genre': '冒险/剧情',
+ 'language': '英语',
+ 'name': '冠军亚瑟',
+ 'runtime': 107,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2904880159.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240507/64960.html>
+{'actor': '冯绍峰',
+ 'area': '中国大陆',
+ 'date': '2024-04-03',
+ 'director': '徐伟',
+ 'genre': '剧情/悬疑/犯罪',
+ 'language': '普通话',
+ 'name': '黄雀在后！',
+ 'runtime': 99,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905336155.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240506/64959.html>
+{'actor': '黄渤',
+ 'area': '中国大陆',
+ 'date': '2023-11-25',
+ 'director': '曹保平',
+ 'genre': '剧情/悬疑/犯罪',
+ 'language': '汉语普通话/日语/德语/胶辽官话',
+ 'name': '涉过愤怒的海',
+ 'runtime': 144,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900852349.jpg',
+ 'vote': 7.2,
+ 'vote_cnt': 480034,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240508/64965.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240508/64963.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240508/64964.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/20240519/65000.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/20240503/64951.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/20240505/64955.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240512/64971.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240508/64965.html>
+{'actor': '保罗·路德',
+ 'area': '美国/加拿大',
+ 'date': '2024-03-22',
+ 'director': '吉尔·克兰',
+ 'genre': '喜剧/科幻/奇幻/冒险',
+ 'language': '英语',
+ 'name': '冰封之城',
+ 'runtime': 115,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902172289.jpg',
+ 'vote': 5.1,
+ 'vote_cnt': 1646,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240508/64963.html>
+{'actor': '刘德华',
+ 'area': '中国大陆/中国香港',
+ 'date': '2023-12-29',
+ 'director': '关智耀',
+ 'genre': '剧情/动作/犯罪',
+ 'language': '国粤双语',
+ 'name': '潜行',
+ 'runtime': 114,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900207662.jpg',
+ 'vote': 5.1,
+ 'vote_cnt': 81848,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240508/64964.html>
+{'actor': '阿丽莎·威尔',
+ 'area': '美国',
+ 'date': '2024-04-19',
+ 'director': '马特·贝蒂内利',
+ 'genre': '惊悚/恐怖',
+ 'language': '英语',
+ 'name': '噬血芭蕾',
+ 'runtime': 109,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903138017.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240512/64971.html>
+{'actor': '上村侑',
+ 'area': '日本',
+ 'date': '2023-03-18',
+ 'director': '小中和哉',
+ 'genre': '剧情',
+ 'language': '日语',
+ 'name': '初哥大战外星人',
+ 'runtime': 113,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2887044222.jpg',
+ 'vote': 8.2,
+ 'vote_cnt': 1369,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240512/64974.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240517/64989.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240513/64975.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240512/64972.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240515/64985.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240513/64978.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240514/64980.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240512/64974.html>
+{'actor': '亨利·卡维尔',
+ 'area': '美国/英国',
+ 'date': '2024-04-18',
+ 'director': '盖·里奇',
+ 'genre': '剧情/喜剧/动作/战争',
+ 'language': '英语',
+ 'name': '盟军敢死队',
+ 'runtime': 120,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905033346.jpg',
+ 'vote': 7.1,
+ 'vote_cnt': 1212,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240517/64989.html>
+{'actor': '冈田将生',
+ 'area': '日本',
+ 'date': '2023-10-13',
+ 'director': '水田伸生',
+ 'genre': '剧情/喜剧',
+ 'language': '日语',
+ 'name': '宽松世代又如何电影版',
+ 'runtime': 116,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2896062848.jpg',
+ 'vote': 7.1,
+ 'vote_cnt': 2286,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240513/64975.html>
+{'actor': '河正宇',
+ 'area': '韩国',
+ 'date': '2023-08-02',
+ 'director': '金成勋',
+ 'genre': '剧情/动作',
+ 'language': '韩语',
+ 'name': '非官方行动',
+ 'runtime': 132,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2895838036.jpg',
+ 'vote': 6.8,
+ 'vote_cnt': 7636,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240512/64972.html>
+{'actor': '杨幂',
+ 'area': '中国大陆',
+ 'date': '2023-12-22',
+ 'director': '丁晟',
+ 'genre': '喜剧/悬疑/犯罪',
+ 'language': '普通话',
+ 'name': '没有一顿火锅解决不了的事',
+ 'runtime': 128,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2907202358.jpg',
+ 'vote': 6.0,
+ 'vote_cnt': 37454,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240515/64985.html>
+{'actor': '戈兰·波格丹',
+ 'area': '德国',
+ 'date': '2023-03-08',
+ 'director': '瓦妮莎·约普',
+ 'genre': '喜剧/爱情',
+ 'language': '德语',
+ 'name': '在那遥远的小岛',
+ 'runtime': 109,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2890557311.jpg',
+ 'vote': 7.0,
+ 'vote_cnt': 656,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240513/64978.html>
+{'actor': '蕾雅·德吕盖',
+ 'area': '法国',
+ 'date': '2023-05-21',
+ 'director': '杰里米·佩林',
+ 'genre': '动作/科幻/动画/悬疑/惊悚',
+ 'language': '法语',
+ 'name': '火星特快',
+ 'runtime': 85,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2891905146.jpg',
+ 'vote': 7.8,
+ 'vote_cnt': 1120,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240514/64980.html>
+{'actor': '丽贝卡·豪尔',
+ 'area': '美国',
+ 'date': '2024-03-27',
+ 'director': '亚当·温加德',
+ 'genre': '动作/科幻/冒险',
+ 'language': '英语/美国手语',
+ 'name': '帝国崛起',
+ 'runtime': 115,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2904477111.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240228/64703.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240227/64700.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240225/64695.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240227/64701.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240302/64716.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240229/64708.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240228/64702.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240228/64703.html>
+{'actor': '艾玛·斯通',
+ 'area': '美国,爱尔兰,英国',
+ 'date': '2023-09-01',
+ 'director': '欧格斯·兰斯莫斯',
+ 'genre': '爱情/科幻',
+ 'language': '英语',
+ 'name': '可怜的东西',
+ 'runtime': 141,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2897485958.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240227/64700.html>
+{'actor': '罗素·克劳',
+ 'area': '美国',
+ 'date': '分\xa0\xa06.5/10 ',
+ 'director': '威廉·尤班克',
+ 'genre': '动作/惊悚',
+ 'language': '英语',
+ 'name': '惊天激战',
+ 'runtime': 110,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902201067.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240225/64695.html>
+{'actor': '克里斯蒂安·富里道尔',
+ 'area': '美国,英国,波兰',
+ 'date': '2023-05-19',
+ 'director': '乔纳森·格雷泽',
+ 'genre': '剧情/历史/战争',
+ 'language': '意第绪语,波兰语,德语',
+ 'name': '利益区域',
+ 'runtime': 105,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2899514583.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240227/64701.html>
+{'actor': '于彦凯',
+ 'area': '中国大陆',
+ 'date': '2024-02-27',
+ 'director': '李亚东',
+ 'genre': '动作/剧情',
+ 'language': '普通话',
+ 'name': '王者归来',
+ 'runtime': 90,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2904918533.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240302/64716.html>
+{'actor': '杰弗里·怀特',
+ 'area': '美国',
+ 'date': '2023-09-08',
+ 'director': '柯德·杰弗森',
+ 'genre': '剧情/喜剧',
+ 'language': '英语',
+ 'name': '美国小说',
+ 'runtime': 117,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902166424.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240229/64708.html>
+{'actor': '安德鲁·斯科特',
+ 'area': '美国,英国',
+ 'date': '2023-08-31',
+ 'director': '安德鲁·海格',
+ 'genre': '剧情  /同性/奇幻',
+ 'language': '英语',
+ 'name': '都是陌生人',
+ 'runtime': 105,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2898667490.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240228/64702.html>
+{'actor': '库梅尔·南贾尼',
+ 'area': '美国,法国,加拿大',
+ 'date': '2023-12-08',
+ 'director': '本杰明·雷内',
+ 'genre': '喜剧  / 动作 / 动画 / 奇幻 / 冒险',
+ 'language': '国英双语',
+ 'name': '飞鸭向前冲',
+ 'runtime': 82,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900212574.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240302/64717.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240303/64719.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240303/64720.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240304/64724.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240306/64731.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240307/64742.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240308/64746.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240302/64717.html>
+{'actor': '阮经天',
+ 'area': '中国台湾',
+ 'date': '2023-10-06',
+ 'director': '黄精甫',
+ 'genre': '动作 /  犯罪',
+ 'language': '汉语普通话,闽南语,粤语',
+ 'name': '周处除三害',
+ 'runtime': 134,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905021483.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240303/64719.html>
+{'actor': '金世佳',
+ 'area': '中国大陆',
+ 'date': '2023-07-24',
+ 'director': '哈智超',
+ 'genre': '剧情/爱情',
+ 'language': '普通话',
+ 'name': '最好的相遇',
+ 'runtime': 110,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2899220055.jpg',
+ 'vote': 6.2,
+ 'vote_cnt': 5159,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240303/64720.html>
+{'actor': '何梓骞',
+ 'area': '中国大陆',
+ 'date': '2024-01-12',
+ 'director': '不思凡',
+ 'genre': '动画/奇幻/冒险',
+ 'language': '普通话',
+ 'name': '大雨',
+ 'runtime': 101,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903106569.jpg',
+ 'vote': 6.4,
+ 'vote_cnt': 16700,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240304/64724.html>
+{'actor': '亚当·桑德勒',
+ 'area': '美国,捷克',
+ 'date': '2024-02-21',
+ 'director': '约翰·伦克',
+ 'genre': '剧情 / 科幻 /  冒险',
+ 'language': '英语',
+ 'name': '太空孤航',
+ 'runtime': 106,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905165647.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240306/64731.html>
+{'actor': '布莱丝·达拉斯·霍华德',
+ 'area': '英国,美国',
+ 'date': '2024-01-31',
+ 'director': '马修·沃恩',
+ 'genre': '动作/惊悚',
+ 'language': '英语',
+ 'name': '神秘特工',
+ 'runtime': 139,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902244780.jpg',
+ 'vote': 6.2,
+ 'vote_cnt': 11715,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240307/64742.html>
+{'actor': '郭富城',
+ 'area': '中国大陆,中国香港',
+ 'date': '2024-01-19',
+ 'director': '麦启光',
+ 'genre': '喜剧/动作/犯罪',
+ 'language': '国粤双语',
+ 'name': '临时劫案',
+ 'runtime': 97,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902984351.jpg',
+ 'vote': 6.2,
+ 'vote_cnt': 31932,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240308/64747.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240308/64746.html>
+{'actor': '役所广司',
+ 'area': '日本,德国',
+ 'date': '2023-05-25',
+ 'director': '维姆·文德斯',
+ 'genre': '剧情',
+ 'language': '日语,英语',
+ 'name': '完美的日子',
+ 'runtime': 123,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2898894527.jpg',
+ 'vote': 8.2,
+ 'vote_cnt': 20730,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240310/64751.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240311/64754.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240312/64757.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240308/64747.html>
+{'actor': '约翰·塞纳',
+ 'area': '美国',
+ 'date': '2024-03-07',
+ 'director': '彼得·法雷里',
+ 'genre': '喜剧',
+ 'language': '英语',
+ 'name': '斯坦尼克',
+ 'runtime': 114,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903744818.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240313/64761.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240314/64766.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240310/64751.html>
+{'actor': '米莉·波比·布朗',
+ 'area': '美国',
+ 'date': '分\xa0\xa06.3/10 ',
+ 'director': '胡安·卡洛斯·弗雷斯纳迪罗',
+ 'genre': '动作  / 奇幻 / 冒险',
+ 'language': '英语',
+ 'name': '少女斗恶龙',
+ 'runtime': 85,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905438934.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240314/64767.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240311/64754.html>
+{'actor': '杰森·莫玛',
+ 'area': '美国',
+ 'date': '2023-12-20',
+ 'director': '温子仁',
+ 'genre': '动作 / 科幻 / 奇幻 /  冒险',
+ 'language': '国英双语',
+ 'name': '失落的王国',
+ 'runtime': 124,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900515564.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240312/64757.html>
+{'actor': '冈田将生',
+ 'area': '日本',
+ 'date': '2023-06-10',
+ 'director': '山下敦弘',
+ 'genre': '喜剧/爱情/奇幻',
+ 'language': '日语',
+ 'name': '消失的情人节',
+ 'runtime': 120,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2890509457.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240313/64761.html>
+{'actor': '费翔',
+ 'area': '中国大陆',
+ 'date': '2023-07-15',
+ 'director': '乌尔善',
+ 'genre': '动作  / 战争 / 奇幻 / 古装',
+ 'language': '普通话',
+ 'name': '朝歌风云',
+ 'runtime': 148,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2895465725.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240315/64769.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240314/64766.html>
+{'actor': '亚当·德赖弗',
+ 'area': '美国/英国/意大利/中国大陆',
+ 'date': '2023-08-31',
+ 'director': '迈克尔·曼',
+ 'genre': '剧情/传记/历史',
+ 'language': '英语',
+ 'name': '法拉利',
+ 'runtime': 130,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902319780.jpg',
+ 'vote': 5.5,
+ 'vote_cnt': 2703,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240314/64767.html>
+{'actor': '刘德华',
+ 'area': '中国大陆/中国香港',
+ 'date': '2023-12-29',
+ 'director': '关智耀',
+ 'genre': '剧情/动作/犯罪',
+ 'language': '国粤双语',
+ 'name': '潜行',
+ 'runtime': 114,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900207662.jpg',
+ 'vote': 5.5,
+ 'vote_cnt': 54366,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240316/64776.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240317/64779.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240319/64785.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240315/64769.html>
+{'actor': '小林由美子',
+ 'area': '日本',
+ 'date': '2023-08-04',
+ 'director': '大根仁',
+ 'genre': '喜剧/动画',
+ 'language': '国日双语',
+ 'name': '超能力大决战',
+ 'runtime': 94,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2899530660.jpg',
+ 'vote': 7.7,
+ 'vote_cnt': 27625,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240318/64780.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240321/64790.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240323/64794.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240316/64776.html>
+{'actor': None,
+ 'area': '美国',
+ 'date': '2024-02-14',
+ 'director': '达科塔·约翰逊',
+ 'genre': '动作/科幻/冒险',
+ 'language': '英语',
+ 'name': '超感觉醒',
+ 'runtime': 116,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903717056.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240317/64779.html>
+{'actor': '贺来贤人',
+ 'area': '日本',
+ 'date': '分\xa0\xa06.8/10 ',
+ 'director': '渡边琴乃',
+ 'genre': '剧情/动画/冒险',
+ 'language': '日语',
+ 'name': '金之国水之国',
+ 'runtime': 117,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2884327463.jpg',
+ 'vote': 6.8,
+ 'vote_cnt': 563,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240319/64785.html>
+{'actor': '杨天翔',
+ 'area': '中国大陆',
+ 'date': '2023-07-08',
+ 'director': '谢君伟',
+ 'genre': '动画/历史',
+ 'language': '普通话',
+ 'name': '长安三万里',
+ 'runtime': 168,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2893820209.jpg',
+ 'vote': 8.3,
+ 'vote_cnt': 612797,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240318/64780.html>
+{'actor': '汤姆·汉克斯',
+ 'area': '美国',
+ 'date': '2024-03-15',
+ 'director': '洛朗·布泽罗',
+ 'genre': '纪录片',
+ 'language': '英语',
+ 'name': '血腥一百',
+ 'runtime': 62,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905777334.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240321/64790.html>
+{'actor': '仲村宗悟',
+ 'area': '日本',
+ 'date': '2022-12-03',
+ 'director': '井上雄彦',
+ 'genre': '动画/运动',
+ 'language': '国日双语',
+ 'name': '灌篮高手',
+ 'runtime': 124,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2888398295.jpg',
+ 'vote': 8.9,
+ 'vote_cnt': 298818,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240323/64794.html>
+{'actor': '杰克·吉伦哈尔',
+ 'area': '美国',
+ 'date': '2024-03-08',
+ 'director': '道格·里曼',
+ 'genre': '动作/惊悚',
+ 'language': '英语',
+ 'name': '新威龙杀阵',
+ 'runtime': 114,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905374090.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240324/64801.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240323/64795.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240324/64800.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240327/64805.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240326/64802.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240328/64809.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240324/64801.html>
+{'actor': '安洁纽·艾莉丝',
+ 'area': '美国',
+ 'date': '2023-09-06',
+ 'director': '艾娃·德约列',
+ 'genre': '剧情/历史',
+ 'language': '英语',
+ 'name': '起源',
+ 'runtime': 135,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2899606326.jpg',
+ 'vote': 6.9,
+ 'vote_cnt': 176,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240323/64795.html>
+{'actor': '吉永小百合',
+ 'area': '日本',
+ 'date': '2023-06-10',
+ 'director': '山田洋次',
+ 'genre': '剧情',
+ 'language': '日语',
+ 'name': '妈妈',
+ 'runtime': 111,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2891977996.jpg',
+ 'vote': 7.9,
+ 'vote_cnt': 2348,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240324/64800.html>
+{'actor': '安东尼·霍普金斯',
+ 'area': '英国',
+ 'date': '2023-09-09',
+ 'director': '詹姆斯·哈维斯',
+ 'genre': '剧情/传记/历史',
+ 'language': '英语',
+ 'name': '一生',
+ 'runtime': 110,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903392805.jpg',
+ 'vote': 7.5,
+ 'vote_cnt': 1255,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240327/64805.html>
+{'actor': '伊万·拉班达',
+ 'area': '西班牙/法国',
+ 'date': '2023-05-20',
+ 'director': '巴勃罗·贝格尔',
+ 'genre': '剧情/动画/音乐',
+ 'language': '无对白',
+ 'name': '机器人之梦',
+ 'runtime': 102,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2899644068.jpg',
+ 'vote': 9.1,
+ 'vote_cnt': 43695,
+ 'year': '2023'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240326/64802.html>
+{'actor': '雷吉娜·金',
+ 'area': '美国',
+ 'date': '2024-03-22',
+ 'director': '约翰·里德利',
+ 'genre': '剧情/传记/历史',
+ 'language': '英语',
+ 'name': '雪莉',
+ 'runtime': 117,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2904692771.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240328/64809.html>
+{'actor': None,
+ 'area': '美国',
+ 'date': '2024-03-22',
+ 'director': '伊萨贝拉阿尔瓦雷茨',
+ 'genre': '喜剧/动画/家庭/奇幻/冒险',
+ 'language': '英语',
+ 'name': '卡萨格兰德一家大电影',
+ 'runtime': 89,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905966845.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240330/64820.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240330/64821.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240328/64810.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240330/64822.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240331/64827.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240401/64833.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240313/64760.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_4.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240330/64820.html>
+{'actor': '琳赛·洛翰',
+ 'area': '美国/爱尔兰',
+ 'date': '2024-03-15',
+ 'director': '贾宁·达米安',
+ 'genre': '喜剧/爱情/奇幻',
+ 'language': '英语',
+ 'name': '爱尔兰之愿',
+ 'runtime': 93,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2904876060.jpg',
+ 'vote': 5.6,
+ 'vote_cnt': 449,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240330/64821.html>
+{'actor': '朴昭怡',
+ 'area': '韩国',
+ 'date': '2023-10-18',
+ 'director': '安相勋',
+ 'genre': '惊悚/恐怖',
+ 'language': '韩语',
+ 'name': '怪谈晚餐',
+ 'runtime': 117,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2899016784.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240328/64810.html>
+{'actor': None,
+ 'area': '韩国',
+ 'date': '2023-11-09',
+ 'director': '朴善惠',
+ 'genre': '剧情/恐怖',
+ 'language': '韩语',
+ 'name': '水鬼',
+ 'runtime': 70,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900630890.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240330/64822.html>
+{'actor': '何赛飞',
+ 'area': '中国大陆',
+ 'date': '2022-08-13',
+ 'director': '乔梁',
+ 'genre': '剧情/家庭',
+ 'language': '汉语普通话/浙江方言',
+ 'name': '追月',
+ 'runtime': 123,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2904643060.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2022'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240331/64827.html>
+{'actor': '艾米莉亚·克拉克',
+ 'area': '比利时/法国/英国',
+ 'date': '2023-01-20',
+ 'director': '索菲·巴尔特',
+ 'genre': '喜剧/爱情/科幻',
+ 'language': '英语',
+ 'name': '卵舱一代',
+ 'runtime': 110,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2898002816.jpg',
+ 'vote': 6.1,
+ 'vote_cnt': 667,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240401/64833.html>
+{'actor': '梁戟',
+ 'area': '中国大陆',
+ 'date': '2023-01-15',
+ 'director': '菅浩栋',
+ 'genre': '剧情/爱情',
+ 'language': '普通话',
+ 'name': '夜幕将至',
+ 'runtime': 93,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902720829.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240313/64760.html>
+{'actor': '迈克尔·塞拉',
+ 'area': '英国,美国',
+ 'date': '2022-07-15',
+ 'director': '克里斯·贝利',
+ 'genre': '喜剧 / 动作 / 动画 /  冒险',
+ 'language': '国英双语',
+ 'name': '猫狗武林',
+ 'runtime': 98,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2883433346.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2022'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240403/64838.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240401/64834.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240404/64843.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240405/64845.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240404/64842.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240406/64849.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240403/64838.html>
+{'actor': '白润音',
+ 'area': '中国台湾',
+ 'date': '2023-10-27',
+ 'director': '萧雅全',
+ 'genre': '剧情',
+ 'language': '普通话',
+ 'name': '老狐狸',
+ 'runtime': 112,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900908599.jpg',
+ 'vote': 8.0,
+ 'vote_cnt': 4345,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240401/64834.html>
+{'actor': '宋洋',
+ 'area': '中国大陆',
+ 'date': '2022-08-14',
+ 'director': '陈国星',
+ 'genre': '剧情',
+ 'language': '普通话',
+ 'name': '回西藏',
+ 'runtime': 109,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903202634.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240404/64843.html>
+{'actor': '张钧甯',
+ 'area': '中国台湾',
+ 'date': '2022-10-22',
+ 'director': '曾英庭',
+ 'genre': '剧情/悬疑/犯罪',
+ 'language': '汉语普通话/泰语/闽南语/英语',
+ 'name': '追缉',
+ 'runtime': 105,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2899224263.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2022'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240405/64845.html>
+{'actor': None,
+ 'area': '不丹',
+ 'date': '2023-09-01',
+ 'director': '帕武·多杰',
+ 'genre': '剧情',
+ 'language': '英语/宗卡语',
+ 'name': '僧侣和枪',
+ 'runtime': 107,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2897818679.jpg',
+ 'vote': 8.1,
+ 'vote_cnt': 700,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240404/64842.html>
+{'actor': '张家辉',
+ 'area': '中国大陆/中国香港',
+ 'date': '2024-04-04',
+ 'director': '黄明升',
+ 'genre': '悬疑/犯罪',
+ 'language': '国粤双语',
+ 'name': '超意神探',
+ 'runtime': 93,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2906229647.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240406/64849.html>
+{'actor': '中岛健人',
+ 'area': '日本',
+ 'date': '2023-10-20',
+ 'director': '水田伸生',
+ 'genre': '剧情/犯罪',
+ 'language': '日语',
+ 'name': '坦白你的罪行',
+ 'runtime': 101,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2895940530.jpg',
+ 'vote': 5.3,
+ 'vote_cnt': 147,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240408/64857.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240407/64855.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240408/64856.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240409/64865.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240410/64875.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240410/64869.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240408/64857.html>
+{'actor': '菅田将晖',
+ 'area': '日本',
+ 'date': '2023-09-15',
+ 'director': '松山博昭',
+ 'genre': '剧情/悬疑/犯罪',
+ 'language': '日语',
+ 'name': '电影版',
+ 'runtime': 128,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2893871508.jpg',
+ 'vote': 6.7,
+ 'vote_cnt': 3577,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240406/64850.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_3.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240407/64855.html>
+{'actor': '姜河那',
+ 'area': '韩国',
+ 'date': '2023-10-03',
+ 'director': '南大中',
+ 'genre': '喜剧/爱情',
+ 'language': '韩语',
+ 'name': '天',
+ 'runtime': 119,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2897838268.jpg',
+ 'vote': 6.8,
+ 'vote_cnt': 9424,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240408/64856.html>
+{'actor': '提莫西·查拉梅',
+ 'area': '美国/加拿大',
+ 'date': '2024-02-28',
+ 'director': '丹尼斯·维伦纽瓦',
+ 'genre': '剧情/动作/科幻/冒险',
+ 'language': '英语',
+ 'name': '沙丘2',
+ 'runtime': 166,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902227445.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240409/64865.html>
+{'actor': '乔什·奥康纳',
+ 'area': '意大利/法国/瑞士',
+ 'date': '2023-05-26',
+ 'director': '阿莉切·罗尔瓦赫尔',
+ 'genre': '喜剧/爱情/奇幻/冒险',
+ 'language': '意大利语/英语',
+ 'name': '奇美拉',
+ 'runtime': 130,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2892253589.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240410/64875.html>
+{'actor': '杰克·布莱克',
+ 'area': '美国/中国大陆',
+ 'date': '2024-03-08',
+ 'director': '迈克·米切尔',
+ 'genre': '喜剧/动作/动画/奇幻/冒险',
+ 'language': '英语',
+ 'name': '功夫熊猫4',
+ 'runtime': 94,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903578097.jpg',
+ 'vote': 6.5,
+ 'vote_cnt': 48521,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240410/64869.html>
+{'actor': '杰森·斯坦森',
+ 'area': '美国/英国',
+ 'date': '2024-01-12',
+ 'director': '大卫·阿耶',
+ 'genre': '动作/惊悚',
+ 'language': '英语',
+ 'name': '养蜂人',
+ 'runtime': 105,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902861438.jpg',
+ 'vote': 6.1,
+ 'vote_cnt': 67521,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240411/64878.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240415/64894.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240406/64850.html>
+{'actor': '二宫和也',
+ 'area': '日本',
+ 'date': '2023-10-06',
+ 'director': '高畑秀太',
+ 'genre': '剧情/爱情',
+ 'language': '日语',
+ 'name': '返朴',
+ 'runtime': 120,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2895817670.jpg',
+ 'vote': 6.7,
+ 'vote_cnt': 439,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240416/64898.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240413/64890.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240413/64891.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240411/64878.html>
+{'actor': '贾冰',
+ 'area': '中国大陆',
+ 'date': '2024-03-02',
+ 'director': '牛朝阳',
+ 'genre': '喜剧/悬疑',
+ 'language': '普通话',
+ 'name': '戏杀',
+ 'runtime': 128,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905144688.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240415/64894.html>
+{'actor': '扎克·埃夫隆',
+ 'area': '英国/美国',
+ 'date': '2023-12-22',
+ 'director': '肖恩·德金',
+ 'genre': '剧情/传记/运动',
+ 'language': '英语',
+ 'name': '铁爪',
+ 'runtime': 130,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900659763.jpg',
+ 'vote': 7.1,
+ 'vote_cnt': 1357,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240416/64898.html>
+{'actor': '柳俊烈',
+ 'area': '韩国',
+ 'date': '2024-01-10',
+ 'director': '崔东勋',
+ 'genre': '动作/科幻/奇幻',
+ 'language': '韩语',
+ 'name': '外星+人2',
+ 'runtime': 122,
+ 'src': 'https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2901813522.jpg',
+ 'vote': 6.6,
+ 'vote_cnt': 3638,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240418/64903.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240417/64899.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240413/64890.html>
+{'actor': '露西·海尔',
+ 'area': '美国',
+ 'date': '2023-09-30',
+ 'director': '彼得·哈钦斯',
+ 'genre': '爱情',
+ 'language': '英语',
+ 'name': '这让我想到了你',
+ 'runtime': 98,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902052562.jpg',
+ 'vote': 5.4,
+ 'vote_cnt': 106,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240413/64891.html>
+{'actor': '谭旻萱',
+ 'area': '中国香港',
+ 'date': '2024-01-18',
+ 'director': '叶念琛',
+ 'genre': '剧情/爱情',
+ 'language': '国粤双语',
+ 'name': '不是你不爱你',
+ 'runtime': 98,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2901677285.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240418/64904.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240421/64911.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240418/64903.html>
+{'actor': '贾玲',
+ 'area': '中国大陆',
+ 'date': '2024-02-10',
+ 'director': '贾玲',
+ 'genre': '剧情/喜剧',
+ 'language': '普通话',
+ 'name': '热辣滚烫',
+ 'runtime': 129,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2904304396.jpg',
+ 'vote': 7.8,
+ 'vote_cnt': 661548,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240417/64899.html>
+{'actor': '惠英红',
+ 'area': '中国大陆',
+ 'date': '2024-03-15',
+ 'director': '徐伟',
+ 'genre': '剧情/家庭',
+ 'language': '普通话',
+ 'name': '灿烂的她',
+ 'runtime': 116,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905379453.jpg',
+ 'vote': 0.0,
+ 'vote_cnt': 0,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240423/64919.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240418/64904.html>
+{'actor': '西德尼·斯维尼',
+ 'area': '意大利/美国',
+ 'date': '2024-03-12',
+ 'director': '迈克尔·莫汉',
+ 'genre': '恐怖',
+ 'language': '英语',
+ 'name': '无瑕修女',
+ 'runtime': 89,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903683600.jpg',
+ 'vote': 5.7,
+ 'vote_cnt': 1135,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240423/64920.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240421/64911.html>
+{'actor': '索菲亚·波多拉',
+ 'area': '美国',
+ 'date': '2024-04-19',
+ 'director': '扎克·施奈德',
+ 'genre': '剧情/动作/科幻/奇幻/冒险',
+ 'language': '英语',
+ 'name': '烙印之人',
+ 'runtime': 122,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905783245.jpg',
+ 'vote': 4.8,
+ 'vote_cnt': 888,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240424/64923.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240426/64930.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240425/64929.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240423/64919.html>
+{'actor': '大卫·达斯马齐连',
+ 'area': '澳大利亚/阿联酋',
+ 'date': '2023-06-11',
+ 'director': '卡梅伦·凯恩斯',
+ 'genre': '恐怖',
+ 'language': '英语',
+ 'name': '魔鬼深夜秀',
+ 'runtime': 92,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905556722.jpg',
+ 'vote': 7.3,
+ 'vote_cnt': 4544,
+ 'year': '2023'}
+2024-06-13 23:33:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240427/64934.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240423/64920.html>
+{'actor': '崔岷植',
+ 'area': '韩国',
+ 'date': '2024-02-16',
+ 'director': '张在现',
+ 'genre': '悬疑/惊悚/恐怖',
+ 'language': '韩语/日语/英语',
+ 'name': '破墓',
+ 'runtime': 134,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2905896429.jpg',
+ 'vote': 7.0,
+ 'vote_cnt': 23269,
+ 'year': '2024'}
+2024-06-13 23:33:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240424/64923.html>
+{'actor': '玛加丽·列平·布隆多',
+ 'area': '加拿大/法国',
+ 'date': '2023-05-18',
+ 'director': '莫妮亚·肖克里',
+ 'genre': '剧情/喜剧/爱情',
+ 'language': '法语',
+ 'name': '简如西尔万',
+ 'runtime': 111,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2892062454.jpg',
+ 'vote': 7.0,
+ 'vote_cnt': 1207,
+ 'year': '2023'}
+2024-06-13 23:33:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240426/64930.html>
+{'actor': '雷佳音',
+ 'area': '中国大陆',
+ 'date': '2024-02-10',
+ 'director': '张艺谋',
+ 'genre': '剧情/喜剧/家庭',
+ 'language': '汉语普通话/中国手语',
+ 'name': '第二十条',
+ 'runtime': 141,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903145026.jpg',
+ 'vote': 7.7,
+ 'vote_cnt': 476969,
+ 'year': '2024'}
+2024-06-13 23:33:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240425/64929.html>
+{'actor': '柯柯·帕尔莫',
+ 'area': '美国/加拿大',
+ 'date': '2023-10-27',
+ 'director': '大卫·索伦',
+ 'genre': '喜剧/爱情/动画/歌舞/家庭/冒险',
+ 'language': '英语',
+ 'name': '蟹群大比拼',
+ 'runtime': 83,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2904915169.jpg',
+ 'vote': 6.7,
+ 'vote_cnt': 163,
+ 'year': '2023'}
+2024-06-13 23:33:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240525/65020.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_1.html)
+2024-06-13 23:33:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240429/64941.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240428/64937.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240427/64934.html>
+{'actor': '克里斯汀·斯图尔特',
+ 'area': '英国/美国',
+ 'date': '2024-01-20',
+ 'director': '罗斯·格拉斯',
+ 'genre': '爱情/惊悚/同性',
+ 'language': '英语',
+ 'name': '血爱成河',
+ 'runtime': 104,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2902183869.jpg',
+ 'vote': 7.0,
+ 'vote_cnt': 926,
+ 'year': '2024'}
+2024-06-13 23:33:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240429/64940.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240502/64946.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240525/65020.html>
+{'actor': '彭昱畅',
+ 'area': '中国大陆/中国香港',
+ 'date': '2024-02-10',
+ 'director': '韩延',
+ 'genre': '剧情/爱情/家庭',
+ 'language': '普通话',
+ 'name': '我们一起摇太阳',
+ 'runtime': 129,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2904467472.jpg',
+ 'vote': 8.1,
+ 'vote_cnt': 84275,
+ 'year': '2024'}
+2024-06-13 23:33:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240429/64941.html>
+{'actor': '吴慷仁',
+ 'area': '马来西亚',
+ 'date': '2023-03-19',
+ 'director': '王礼霖',
+ 'genre': '剧情',
+ 'language': '马来语/汉语普通话/粤语/英语/闽南语/手语',
+ 'name': '富都青年',
+ 'runtime': 115,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2899835303.jpg',
+ 'vote': 7.0,
+ 'vote_cnt': 8829,
+ 'year': '2023'}
+2024-06-13 23:33:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240428/64937.html>
+{'actor': '铃木亮平',
+ 'area': '日本',
+ 'date': '2024-04-25',
+ 'director': '佐藤祐市',
+ 'genre': '喜剧/动作/爱情/悬疑/犯罪',
+ 'language': '日语',
+ 'name': '城市猎人',
+ 'runtime': 102,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2906647021.jpg',
+ 'vote': 6.6,
+ 'vote_cnt': 2743,
+ 'year': '2024'}
+2024-06-13 23:33:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240429/64940.html>
+{'actor': '沈腾',
+ 'area': '中国大陆',
+ 'date': '2024-02-10',
+ 'director': '韩寒',
+ 'genre': '剧情/喜剧/运动',
+ 'language': '普通话',
+ 'name': '飞驰人生2',
+ 'runtime': 121,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903066285.jpg',
+ 'vote': 7.7,
+ 'vote_cnt': 511435,
+ 'year': '2024'}
+2024-06-13 23:33:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240502/64946.html>
+{'actor': '白润音',
+ 'area': '中国台湾',
+ 'date': '2023-10-27',
+ 'director': '萧雅全',
+ 'genre': '剧情',
+ 'language': '普通话',
+ 'name': '老狐狸',
+ 'runtime': 112,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2900908599.jpg',
+ 'vote': 8.1,
+ 'vote_cnt': 39815,
+ 'year': '2023'}
+2024-06-13 23:33:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240412/64879.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240412/64879.html>
+{'actor': '檀健次',
+ 'area': '中国大陆',
+ 'date': '2024-03-08',
+ 'director': '韩琰',
+ 'genre': '剧情/爱情',
+ 'language': '普通话',
+ 'name': '被我弄丢的你',
+ 'runtime': 112,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2903285621.jpg',
+ 'vote': 6.3,
+ 'vote_cnt': 42563,
+ 'year': '2024'}
+2024-06-13 23:33:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ygdy8.net/html/gndy/dyzz/20240429/64942.html> (referer: https://www.ygdy8.net/html/gndy/dyzz/list_23_2.html)
+2024-06-13 23:33:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ygdy8.net/html/gndy/dyzz/20240429/64942.html>
+{'actor': '休·劳瑞',
+ 'area': '英国/德国/美国',
+ 'date': '2022-11-13',
+ 'director': '托比·格恩科尔',
+ 'genre': '喜剧/动画',
+ 'language': '国英双语',
+ 'name': '神奇的莫里斯',
+ 'runtime': 93,
+ 'src': 'https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2907522651.jpg',
+ 'vote': 6.4,
+ 'vote_cnt': 494,
+ 'year': '2022'}
+2024-06-13 23:33:07 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-06-13 23:33:07 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 32069,
+ 'downloader/request_count': 104,
+ 'downloader/request_method_count/GET': 104,
+ 'downloader/response_bytes': 603552,
+ 'downloader/response_count': 104,
+ 'downloader/response_status_count/200': 104,
+ 'elapsed_time_seconds': 6.732076,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 6, 13, 15, 33, 7, 175959),
+ 'httpcompression/response_bytes': 1820650,
+ 'httpcompression/response_count': 104,
+ 'item_scraped_count': 100,
+ 'log_count/DEBUG': 207,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 3,
+ 'response_received_count': 104,
+ 'scheduler/dequeued': 104,
+ 'scheduler/dequeued/memory': 104,
+ 'scheduler/enqueued': 104,
+ 'scheduler/enqueued/memory': 104,
+ 'start_time': datetime.datetime(2024, 6, 13, 15, 33, 0, 443883)}
+2024-06-13 23:33:07 [scrapy.core.engine] INFO: Spider closed (finished)
